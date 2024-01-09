@@ -203,14 +203,17 @@ margin-top: -50px;
 }
 .upcoming{
     width: 100%;
-    height: 600px;
-    background-color: 
+    height: 70vh;
+    background-color:rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 
 .small-title{
-    color: red;  
+    color: rgb(240, 0, 0);  
     font-size: 20px;
     font-weight: 800;
 }
@@ -226,22 +229,23 @@ margin-top: -50px;
 }
 
 .img3{
-    width: 440px;
-    height: 440px;
-    margin-top: -110px;
-    border-radius: 340px;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 1000px;
     background-image: url('photos/Ellipse1.png');
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
-    border: 15px solid red;
+    border: 1px red;
     
 }
 
 .element{
+    width:70vw ;
+    height: 500px;
+    background-color: #FFF;
     display: flex;
     justify-content: space-between;
-    padding: 200px 500px;
 }
 
 .year h3 {
